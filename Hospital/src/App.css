@@ -51,17 +51,26 @@ margin-top: -200px;
 
 }
 .nwds img{
-  width: 200px;
+  width: 180px;
+  height: 70px;
 }
 .testimonials img{
-  height: 100px;
-  width: 200px;
+  height: 50px;
+  width: 180px;
 }
 .testimonials i{
   color: orange;
-  margin-left: 20px;
+
   margin-top: 10px;
 }
 .star i{
   color: orange;
+}
+.captera img{
+  height: 150px;
+  width: 150px;
+}
+.trans :hover{
+  transition: 0.1s;
+  transform: translatey(20px);
 }
