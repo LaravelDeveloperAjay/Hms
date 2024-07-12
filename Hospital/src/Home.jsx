@@ -49,7 +49,7 @@ function Home() {
   <p className='text-2xl mt-8'>ShiftCare is an easy to use software platform that cuts paperwork and boosts efficiency, giving <br /> support providers more time for what matters. Delivering highly personalised client care, while <br /> growing your business.</p>
   <p className='mt-10 text-2xl'>Join 4,000+ care provider businesses that use ShiftCare</p>
   <ul className='flex justify-center items-center mt-10'>
- <li className=' border-slate-300 border-2 w-72 p-2 rounded-2xl'><input type="email" placeholder='Enter your email' /> </li><li className=' bg-red-700 p-2  rounded-2xl text-white  hover:bg-red-500'><button>Book a demo</button></li></ul>
+ <li className=' border-slate-300 border-2 w-72 p-3 rounded-2xl'><input type="email" placeholder='Enter your email' className=' relative' /> </li><li className=' bg-red-500 p-3  rounded-full text-white  hover:bg-red-400 absolute ml-72 w-36'><button>Try for Free</button></li></ul>
  <b>Subscriptions start at just $9 user / month.</b>
  </div>
  <div className='reivew mt-10'>
@@ -59,11 +59,11 @@ function Home() {
     <li ><img src="https://shiftcare.com/assets/companies/xero.svg" alt="" />
     <button>4.8<i class="bi bi-star-fill"></i></button></li>
     <li ><img src="https://shiftcare.com/assets/companies/google.svg" alt="" />
-    <button>4.8<i class="bi bi-star-fill"></i></button></li>
+    <button>4.7<i class="bi bi-star-fill"></i></button></li>
     <li ><img src="https://shiftcare.com/assets/companies/software-advice.svg" alt="" />
     <button>4.8<i class="bi bi-star-fill"></i></button></li>
     <li ><img src="https://shiftcare.com/assets/companies/g2.svg" alt="" />
-    <button>4.8<i class="bi bi-star-fill"></i></button></li>
+    <button>4.9<i class="bi bi-star-fill"></i></button></li>
   </ul>
  </div>
  {/* <div className=' roundphotos absolute'>  
@@ -83,15 +83,15 @@ function Home() {
   </div>
   <div className="container-fluid">
     <p className='text-center text-2xl '>WE POWER SOME OF AUSTRALIA'S LEADING SUPPORT PROVIDERS</p>
-    <ul className=' nwds flex gap-10 mt-4 justify-center items-center'>
-      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9ud2RzLnBuZw==/nwds.png?fm=webp&q=90&fit=crop-50-50&w=1104&h=361&s=9e4505eb8571b46ebd6b9c4c9880a13a" alt="" /></li>
-      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9hZHMtY2FyZS5wbmc=/ads-care.png?fm=webp&q=90&fit=crop-50-50&w=269&h=65&s=bfcd0231a8a4a9090b00bf94629595dc" alt="" /></li>
-      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9zdWVzLW51cnNpbmcucG5n/sues-nursing.png?fm=webp&q=90&fit=crop-50-50&w=204&h=74&s=e36e4c74b876a678571f185cff11cbe1" alt="" /></li>
-      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9iYXJuYWRvcy5wbmc=/barnados.png?fm=webp&q=90&fit=crop-50-50&w=368&h=112&s=8d2e40028f4fb8313048ffad07c4549d" alt="" /></li>
-      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9oZWFsdGgtY2FyZS1yZXF1ZXN0LnBuZw==/health-care-request.png?fm=webp&q=90&fit=crop-50-50&w=347&h=93&s=fc6466301ad681dfae2b4d942ffb2395" alt="" /></li>
+    <ul className=' nwds flex gap-20 mt-10 mx-20'>
+      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9ud2RzLnBuZw==/nwds.png?fm=webp&q=90&fit=crop-50-50&w=1104&h=361&s=9e4505eb8571b46ebd6b9c4c9880a13a" alt="" className=' w-44' /></li>
+      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9hZHMtY2FyZS5wbmc=/ads-care.png?fm=webp&q=90&fit=crop-50-50&w=269&h=65&s=bfcd0231a8a4a9090b00bf94629595dc" alt="" className=' w-44' /></li>
+      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9zdWVzLW51cnNpbmcucG5n/sues-nursing.png?fm=webp&q=90&fit=crop-50-50&w=204&h=74&s=e36e4c74b876a678571f185cff11cbe1" alt="" className=' w-44' /></li>
+      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9iYXJuYWRvcy5wbmc=/barnados.png?fm=webp&q=90&fit=crop-50-50&w=368&h=112&s=8d2e40028f4fb8313048ffad07c4549d" alt="" className=' w-44'/></li>
+      <li><img src="https://shiftcare.com/img/asset/YXNzZXRzL2NvbXBhbmllcy9oZWFsdGgtY2FyZS1yZXF1ZXN0LnBuZw==/health-care-request.png?fm=webp&q=90&fit=crop-50-50&w=347&h=93&s=fc6466301ad681dfae2b4d942ffb2395" alt="" className=' w-44' /></li>
       </ul>
   </div>
-  <div className="container-fluid mt-10">
+  <div className="container-fluid mt-36">
     <div className="row">
       <div className="col-md-6">
         <div ><img src="https://shiftcare.com/img/asset/YXNzZXRzL2ZlYXR1cmVzL3BsYWNlaG9sZGVycy8xLlByb2dyZXNzLU5vdGVzLnBuZw==/1.Progress-Notes.png?q=80&fm=webp&fit=crop-50-50&w=1316&h=732&s=42fe1a59bb59c9ec1a3ae1defa7362cd" alt="" /></div>
@@ -156,58 +156,58 @@ function Home() {
   </div>
   <div className="container-fluid">
     <b className='text-4xl'>Discover the difference ShiftCare <br /> can make to your business</b>
-    <div className="row">
+    <div className="row mt-20">
       <div className="col-md-6">
-        <div className='flex mt-10'>
+        <div className='flex mt-10 mx-10'>
           <div>
-            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1ORElTLVByb3ZpZGVyLVNvZnR3YXJlLS0tU2hpZnRDYXJlLmpwZWc=/Solutions---NDIS-Provider-Software---ShiftCare.jpeg?fm=webp&q=90&fit=crop-34-36-1.7&w=251&h=251&s=ed02a73d8638f3a3232e2196a32da783" alt=""className='h-44  rounded-full' />
+            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1ORElTLVByb3ZpZGVyLVNvZnR3YXJlLS0tU2hpZnRDYXJlLmpwZWc=/Solutions---NDIS-Provider-Software---ShiftCare.jpeg?fm=webp&q=90&fit=crop-34-36-1.7&w=251&h=251&s=ed02a73d8638f3a3232e2196a32da783" alt=""className='h-36 w-64  rounded-full' />
          
           </div>
           <div className='mx-10'>  <b className='text-2xl text-black-950'>
           NDIS Software</b>
-             <p>We make it easier to deliver, price and bill support  plans for NDIS clients.</p>
-             <button className='text-blue-700 underline  text-xl'>Learn more<i class="bi bi-arrow-right"></i></button>
+             <p className='mt-2'>We make it easier to deliver, price and bill support  plans for NDIS clients.</p>
+             <button className='text-blue-700 underline  text-xl mt-3'>Learn more<i class="bi bi-arrow-right"></i></button>
              </div>
         </div>
-        <div className='flex mt-10'>
+        <div className='flex mt-20 mx-10'>
           <div>
-            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1BbGxpZWQtSGVhbHRoLS0tU2hpZnRDYXJlLmpwZWc=/Solutions---Allied-Health---ShiftCare.jpeg?fm=webp&q=90&fit=crop-77-10-2.1&w=248&h=248&s=9bd381cebfda664a3c098667891b4161" alt="" className='h-44  rounded-full' />
+            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1BbGxpZWQtSGVhbHRoLS0tU2hpZnRDYXJlLmpwZWc=/Solutions---Allied-Health---ShiftCare.jpeg?fm=webp&q=90&fit=crop-77-10-2.1&w=248&h=248&s=9bd381cebfda664a3c098667891b4161" alt=""className='h-36 w-64  rounded-full' />
           </div>
        
         <div className='mx-10'>  <b className='text-2xl text-black-950'>
         
 Allied Health</b>
-             <p>WAccess all you need to more effectively manage the delivery of quality patient care.</p>
-             <button className='text-blue-700 underline text-xl'>Learn more<i class="bi bi-arrow-right"></i></button>
+             <p className='mt-2'>WAccess all you need to more effectively manage the delivery of quality patient care.</p>
+             <button className='text-blue-700 underline text-xl mt-3'>Learn more<i class="bi bi-arrow-right"></i></button>
              </div> </div>
       </div>
-      <div className="col-md-6">  <div className='flex mt-10'>
+      <div className="col-md-6">  <div className='flex mt-10 mx-10'>
           <div>
-            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1BZ2VkLWNhcmUtc29mdHdhcmUtLS1TaGlmdENBcmUuanBlZw==/Solutions---Aged-care-software---ShiftCAre.jpeg?fm=webp&q=90&fit=crop-40-46-1.5&w=1341&h=1341&s=b770faa1dcb30ef25920dcbc8c63256c" alt=""className='h-44  rounded-full' />
+            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9Tb2x1dGlvbnMtLS1BZ2VkLWNhcmUtc29mdHdhcmUtLS1TaGlmdENBcmUuanBlZw==/Solutions---Aged-care-software---ShiftCAre.jpeg?fm=webp&q=90&fit=crop-40-46-1.5&w=1341&h=1341&s=b770faa1dcb30ef25920dcbc8c63256c" alt=""className='h-36 w-64  rounded-full' />
          
           </div>
           <div className='mx-10'>  <b className='text-2xl text-black-950'>
           
 Aged Care</b>
-             <p>Simplifying the planning, delivery and invoicing of aged care services.</p>
-             <button className='text-blue-700 underline  text-xl'>Learn more<i class="bi bi-arrow-right"></i></button>
+             <p className='mt-2'>Simplifying the planning, delivery and invoicing of aged care services.</p>
+             <button className='text-blue-700 underline  text-xl mt-3'>Learn more<i class="bi bi-arrow-right"></i></button>
              </div>
         </div>
-        <div className='flex mt-10'>
+        <div className='flex mt-20 mx-10'>
           <div>
-            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9MYXJnZS0tLVN1cHBvcnQtQ29vcmRpbmF0b3ItcGhvbmUtbmRpcy1jbGllbnQuanBlZw==/Large---Support-Coordinator-phone-ndis-client.jpeg?fm=webp&q=90&fit=crop-34-26-2.6&w=1920&h=1920&s=2c87b35b94e87ccbcb962b82a57c10d1" alt="" className='h-44  rounded-full' />
+            <img src="https://shiftcare.com/img/asset/YXNzZXRzL3NvbHV0aW9ucy9MYXJnZS0tLVN1cHBvcnQtQ29vcmRpbmF0b3ItcGhvbmUtbmRpcy1jbGllbnQuanBlZw==/Large---Support-Coordinator-phone-ndis-client.jpeg?fm=webp&q=90&fit=crop-34-26-2.6&w=1920&h=1920&s=2c87b35b94e87ccbcb962b82a57c10d1" alt="" className='h-36 w-64  rounded-full' />
           </div>
        
         <div className='mx-10'>  <b className='text-2xl text-black-950'>
         
 
         Support Coordination</b>
-             <p>Help families access the best possible care, and keep billing simple for them.</p>
-             <button className='text-blue-700 underline text-xl'>Learn more<i class="bi bi-arrow-right"></i></button>
+             <p className='mt-2'>Help families access the best possible care, and keep billing simple for them.</p>
+             <button className='text-blue-700 underline text-xl mt-3'>Learn more<i class="bi bi-arrow-right"></i></button>
              </div> </div></div>
     </div>
   </div>
-  <div className="container-fluid mt-10">
+  <div className="container-fluid mt-24">
     <div className="row">
       <div className="col-md-6">
         <div>
@@ -272,7 +272,7 @@ Aged Care</b>
         </div>
       </div>
       <div className="col-md-4 trans">
-      <div className=' p-5 bg-slate-300'><p>Great app to get an instant update about your shifts and your clients needs: behaviour and so on which helps give more personal care.</p>
+      <div className=' p-5 bg-slate-300'><p> Great  app to get an instant update about your shifts and your clients needs: behaviour and so on which helps give more personal care.</p>
         <b>Sajana</b> <div className='mt-4'></div>
         <p className='text-blue-600'>Bloomfield care Services</p>
         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -341,8 +341,8 @@ Aged Care</b>
   <div className="containeer-fluid bg-blue-950 text-white p-10 mt-20">
     <div className='text-center'><b className='text-5xl'>Start your free 7 day trial.</b>
     <p className='mt-10 text-xl'>Deliver a higher standard of care, all from just $9 per user a month.</p>
-    < button className=' bg-red-400 p-2  rounded-2xl text-white mt-10'>Try for free</button>
-    <button className=' bg-blue-900 p-2  rounded-2xl mx-10'> compare plans</button></div>
+    < button className=' bg-red-400 p-3  rounded-2xl text-white mt-10 '>Try for free<i class="bi bi-arrow-right"></i></button>
+    <button className=' bg-blue-900 p-3  rounded-2xl mx-10'> compare plans</button></div>
   </div>
   <div className=' flex gap-20 justify-center'>
     <div className='text-center border-r-2 p-4'>
